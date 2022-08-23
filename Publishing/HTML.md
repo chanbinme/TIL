@@ -114,10 +114,8 @@ HTML(Hyper Text Markup Language)은 웹 페이지의 구조를 표현하는 마�
 ```
 > * item1
 > * item2
-> * item3
-</br>
-> &nbsp;&nbsp; 1. item4
-</br>
+> * item3 </br>
+> &nbsp;&nbsp; 1. item4 </br>
 > &nbsp;&nbsp; 2. item5
 
 ## `<input>`
@@ -143,14 +141,11 @@ radiobox
 즉, HTML tag들 중에서도 의미가 있는 태그들을 말한다.
 ```
 ### 중요한 이유
-1. 유지보수성
-</br>
+1. 유지보수성 </br>
 단순히 `<div>`, `<tag>`만으로 구조를 짜는 것보다 더 한 눈에 알아볼 수 있기 때문에, 다른 개발자들이 코드를 유지보수하기 편해진다.
 
-2. SEO (Search engine optimization)
-</br>
+2. SEO (Search engine optimization) </br>
 시멘틱 태그를 잘 활용하면 특정 키워드로 검색했을 때, 나의 웹사이트가 검색창에 노출될 수 있다.
 
-3. 웹 접근성 
-</br>
+3. 웹 접근성 </br>
 적절한 시멘틱 태그로 만들어진 웹사이트는 음성으로 읽어주는 스크린리더나 키보드만을 사용해도 문제없이 동작할 수 있다.
