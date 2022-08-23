@@ -1,8 +1,8 @@
 # Today I Learned(TIL)
 ```
-피드백 환영합니다
+많은 피드백 부탁드립니다 (_ _)
 ```
 
 ## Publishing
 -------------
-* [HTML](../TIL/Publishing/HTML.md)
+* [HTML](https://github.com/dev-jambin/TIL/blob/main/Publishing/HTML.md)
