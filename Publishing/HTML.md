@@ -12,8 +12,7 @@
     + [ul/ol](#ul--ol)
     + [input](#input)
 * [시멘틱 태그 개념](#시멘틱-태그-개념)
-</br>
-</br>
+
 
 # HTML
 <pre>
@@ -60,8 +59,7 @@ HTML(Hyper Text Markup Language)은 웹 페이지의 구조를 표현하는 마�
 마크업 언어(Markup Language)는 태그 등을 이용하여 문서나, 데이터의 구조를 표현하는 언어다.
 ```
 * 프로그래밍 언어와는 구별된다.
-</br>
-</br>
+
 
 # HTML 요소
 <!-- Markdown -->
@@ -133,7 +131,7 @@ radiobox
 <input type="radio" name="option1"> 옵션A
 <Input type="radio" name="option1"> 옵션B
 ```
-</br>
+
 
 # 시멘틱 태그 개념
 ```
