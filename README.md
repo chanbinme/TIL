@@ -5,7 +5,7 @@
 ## CS50
 
 * 컴퓨팅 사고(Computational Thinking, Scratch)
-    - 2진법과 정보의 표현
+    - [2진법과 정보의 표현](https://github.com/dev-jambin/TIL/blob/main/CS50/Computational-Thinking/Binary.md)
     - 알고리즘
     - 스크래치: 기초
     - 스크래치: 심화
