@@ -1,5 +1,5 @@
 # 목차
-* [목차](#목차)
+- [목차](#목차)
 - [`init`](#init)
 - [`clone`](#clone)
 - [`add`](#add)
@@ -85,6 +85,7 @@ git reset --soft HEAD^
 `reset HEAD^` : commit을 취소하고 해당 파일들을 Unstaging해주는 명령어
 ```java
 git reset HEAD^
+```
 
 `reset --hard HEAD^` : commit을 취소하고 해당 파일들의 변경점을 삭제하는 명령어
 ```java

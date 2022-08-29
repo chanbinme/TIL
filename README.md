@@ -12,8 +12,8 @@
 
 ## Git
 
-* [Git & Github 기본 개념](https://github.com/dev-jambin/TIL/blob/main/Git/Git-&-Github.md)
-* [Git 기본 명령어](https://github.com/dev-jambin/TIL/blob/main/Git/Git-Command.md)
+* [Git & Github 기본 개념](https://github.com/dev-jambin/TIL/blob/main/Git/Git%20%26%20Github.md)
+* [Git 기본 명령어](https://github.com/dev-jambin/TIL/blob/main/Git/Git%20Command.md)
 
 ## Linux
 
