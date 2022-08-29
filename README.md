@@ -10,11 +10,16 @@
     - 스크래치: 기초
     - 스크래치: 심화
 
-## Publishing
+## Git
 
-* [HTML](https://github.com/dev-jambin/TIL/blob/main/Publishing/HTML.md)
-* [CSS](https://github.com/dev-jambin/TIL/blob/main/Publishing/CSS.md)
+* [Git & Github 기본 개념](https://github.com/dev-jambin/TIL/blob/main/Git/Git-&-Github.md)
+* [Git 기본 명령어](https://github.com/dev-jambin/TIL/blob/main/Git/Git-Command.md)
 
 ## Linux
 
 * [CLI 개념 및 기본 명령어](https://github.com/dev-jambin/TIL/blob/main/Linux/CLI.md)
+
+## Publishing
+
+* [HTML](https://github.com/dev-jambin/TIL/blob/main/Publishing/HTML.md)
+* [CSS](https://github.com/dev-jambin/TIL/blob/main/Publishing/CSS.md)
