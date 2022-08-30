@@ -1,5 +1,5 @@
 # 목차
-* [목차](#목차)
+- [목차](#목차)
 - [Git](#git)
 - [Github](#github)
 - [Git Repository](#git-repository)
