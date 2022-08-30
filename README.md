@@ -17,7 +17,7 @@
 
 ## Java
 
-* java 기초
+* [java 기초](https://github.com/dev-jambin/TIL/blob/main/Java/Java%20%EA%B8%B0%EC%B4%88.md)
 
 ## Linux
 
