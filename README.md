@@ -18,7 +18,7 @@
 ## Java
 
 * [Java 기초](https://github.com/dev-jambin/TIL/blob/main/Java/Java%20%EA%B8%B0%EC%B4%88.md)
-* [String 클래스 메서드 도감](https://github.com/dev-jambin/TIL/blob/main/Java/String%20클래스%20메서드%20도감)
+* [String 클래스 메서드 도감](https://github.com/dev-jambin/TIL/blob/main/Java/String%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%A9%94%EC%84%9C%EB%93%9C%20%EB%8F%84%EA%B0%90.md)
 
 ## Linux
 
