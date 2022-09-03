@@ -7,13 +7,17 @@
 * [목차](#목차)
 * [split( )](#1-split)
 * [equals( )](#2-equals)
+* [replace( )](#replace)
+    + [String.replace( )](#1-string-replace기존-문자-바꿀-문자)
+    + [String.replaceAll](#2-string-replaceall기존-문자-또는-정규식-바꿀-문자)
+    + [String.replaceFirst](#3-string-replacefirst기존-문자-또는-정규식-바꿀-문자)
 
 
 계속 추가할 예정.
 
 # Java 클래스 메서드 도감
 
-### 1. split( )
+### split()
 > 지정된 분리자(regex)를 기준으로 문자열을 자르고 문자열 배열에 담아 반환해주는 메서드
 
 ```java
@@ -36,7 +40,7 @@ result3 = [010, 1234, 5678-9101]
 ```
 ---
 
-### 2. equals( )
+### equals()
 > 매개변수로 받은 문자열(obj)과 String 인스턴스의 문자열을 비교한다. obj가 문자열이 아니거나 내용이 다르면 false를 반환한다. 
 
 ```java
@@ -64,6 +68,80 @@ System.out.println(c1 == c2);        //false
 System.out.println(c1.equals(c2));   //true
 ```
 
+---
+### replace()
+> 바꾸고 싶은 문자를 입력 받아 문자열을 치환시켜주는 메서드
+
+```java
+String replace(String target, String replacement)
+String replaceAll(String regex, String replacement)
+String replaceFirs(String regex, String replacement)
+```
+#### 예제
+#### 1. `String replace(기존 문자, 바꿀 문자)`
+replace 메서드는 문자열에서 변경하고 싶은 문자열을 찾아 변환한다.
+```java
+String str = "010.1234.5678.9101";
+String str1 = str.replace("0", "a");
+String str2 = str.replace(".", "a");
+System.out.println(str);
+
+// 결과
+a1a.1234.5678.91a1
+010a1234a5678a9101
+```
+
+#### 2. `String replaceAll(기존 문자 또는 정규식, 바꿀 문자)`
+replace와 replaceAll의 차이점은 replace는 인자를 문자열로 입력받지만 replaceAll은 인자를 문자열 또는 정규식으로 입력 받는다. 
+그래서 특수문자를 입력 받은 경우 replace에서는 치환이 가능한 반면 replaceAll은 특수문자를 정규식으로 입력받아 치환이 어렵다.
+```java
+String str = "010.1234.5678.9101";
+String str1 = str.replaceAll("0", "a");
+String str2 = str.replaceAll(".", "a"); 
+String str3 = str.replaceAll("[0-4]", "a");
+        
+System.out.println(str1);
+System.out.println(str2);
+System.out.println(str3);
+        
+// 결과
+a1a.1234.5678.91a1
+aaaaaaaaaaaaaaaaaa // 정규식에서는 .은 모든 문자를 나타낸다.
+aaa.aaaa.5678.9aaa
+```
+대신 인식해주는 방법이 있다.
+- 특수문자는 괄호 `[]`로 감싼다.
+- 괄호, ^는 앞에 \\\를 붙인다.
+```java
+String str = "010.1234.5678{9101)";
+// |를 사용하여 한 번에 여러개의 문자를 치환할 수 있다.
+str = str.replaceAll("[.]", "");
+str = str.replaceAll("\\{|\\)", "");
+
+System.out.println(str);
+
+// 결과
+010123456789101
+```
+
+
+#### 3. `String replaceFirst(기존 문자 또는 정규식, 바꿀 문자)`
+replaceFirst는 문자열에서 처음으로 찾은 문자만 치환한다.
+```java
+String str = "010 1234 5678 9101";
+String str1 = str.replace(" ", "");
+String str2 = str.replaceAll(" ", "");
+String str3 = str.replaceFirst(" ", "");
+
+System.out.println(str1);
+System.out.println(str2);
+System.out.println(str3);
+
+// 결과
+010123456789101
+010123456789101
+0101234 5678 9101
+```
 
 
 
