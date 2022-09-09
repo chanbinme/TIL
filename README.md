@@ -36,4 +36,4 @@
 ## ETC
 
 * [etc](https://github.com/dev-jambin/TIL/blob/main/ETC)
-* [나의 에러 일지]
+* [나의 에러 일지](https://github.com/dev-jambin/TIL/blob/main/ETC/%EB%82%98%EC%9D%98%20%EC%97%90%EB%9F%AC%20%EC%9D%BC%EC%A7%80/ArrayIndexOutOfBoundsException.md)
