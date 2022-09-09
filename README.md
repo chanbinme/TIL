@@ -36,3 +36,4 @@
 ## ETC
 
 * [etc](https://github.com/dev-jambin/TIL/blob/main/ETC)
+* [나의 에러 일지]
