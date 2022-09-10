@@ -6,6 +6,7 @@
 # 목차
 * [목차](#목차)
 * [split( )](#split)
+* [toCharArray()](#tochararray)
 * [equals( )](#equals)
 * [replace( )](#replace)
     + [String.replace( )](#1-string-replace기존-문자-바꿀-문자)
@@ -17,6 +18,7 @@
 * [indexOf( )](#indexof)
 * [toLowerCase( )와 toUpperCase( )](#tolowercase-와-touppercase)
 * [trim( )](#trim)
+* [getBytes()](#getbytes)
 * [String.format( )](#stringformat)
 
 계속 추가할 예정.
@@ -43,6 +45,29 @@ String[] result3 = str.split("-", 3);
 result1 = [010, 1234, 5678, 9101]
 result2 = [010, 1234-5678-9101]
 result3 = [010, 1234, 5678-9101]
+```
+---
+
+### `toCharArray()`
+> 문자열을 잘라서 배열로 반환하는 메서드. split()과 다른 점은 문자열 배열이 아닌 문자형(char[]) 배열에 담는다는 것이다.
+
+```java
+char[] String.toCharArray()
+```
+
+#### 예제
+```java
+String str1 = "Hello World!";
+char[] ch = str.toCharArray();
+
+System.out.println(ch);
+
+//결과
+Hello World!
+```
+- char형 배열을 하나의 문자열로 변환할 수 있다.
+```java
+String str2 = new String(ch);
 ```
 ---
 
@@ -296,6 +321,24 @@ B H C
 ```
 
 ---
+### `getBytes()`
+> 문자열을 byte 배열로 반환하는 메서드
+
+```java
+byte[] String.getBytes()
+```
+#### 예제
+```java
+String str = "Hello World";
+byte[] bArr = str.getBytes();
+
+System.out.println(Arrays.toString(bArr));
+
+//결과
+[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]
+```
+---
+
 ### `String.format()`
 > 문자열을 정의된 format대로 치환하여 반환하는 메서드
 
@@ -314,7 +357,14 @@ static String format(String format, Object...args)
 %c|문자(character) 타입으로 출력
 %s|문자열(string) 타입으로 출력
 
+#### 예제 
+```java
+int a = 20000;
+System.out.println(String.format("뿌링클 콤보 가격은 %d원이다.", a));
 
+//결과
+뿌링클 콤보 가격은 20000원이다.
+```
 
 
 
