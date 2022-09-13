@@ -22,6 +22,7 @@
 * [생성자(Constructor)](https://github.com/dev-jambin/TIL/blob/main/Java/생성자(Constructor).md)
 * [상속(Inheritance)과 캡슐화(Encapsulation)](https://github.com/dev-jambin/TIL/blob/main/Java/%EC%83%81%EC%86%8D(Inheritance)%EA%B3%BC%20%EC%BA%A1%EC%8A%90%ED%99%94(Encapsulation).md)
 * [다형성(Polymorphism)과 추상화(Abstraction)](https://github.com/dev-jambin/TIL/blob/main/Java/%EB%8B%A4%ED%98%95%EC%84%B1(Polymorphism)%EA%B3%BC%20%EC%B6%94%EC%83%81%ED%99%94(Abstraction).md)
+* [열거형(Enum)과 제네릭(Generic)]
 * [String 클래스 메서드 도감](https://github.com/dev-jambin/TIL/blob/main/Java/String%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%A9%94%EC%84%9C%EB%93%9C%20%EB%8F%84%EA%B0%90.md)
 
 ## Linux
