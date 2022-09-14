@@ -19,7 +19,6 @@
         + [Map 인터페이스 메서드](#map-인터페이스-메서드)
         + [HashMap](#hashmap)
         + [Map.Entry 인터페이스 메서드](#mapentry-인터페이스-메서드)
-    + [언제 어떤 컬렉션 클래스를 사용해야 할까?](#언제-어떤-컬렉션-클래스를-사용해야-할까)
 
 # 컬렉션 프레임워크(Collection Framework)
 
@@ -288,7 +287,3 @@ public class HashMapExample {
 | Object | getValue() | Entry 객체의 Value 객체를 반환합니다. |
 | int | hashCode() | Entry 객체의 해시코드를 반환합니다. |
 | Object | setValue(Object value) | Entry 객체의 Value 객체를 인자로 전달한 value 객체로 바꿉니다. |
-
-## 언제 어떤 컬렉션 클래스를 사용해야 할까?
-
-![Untitled](https://s3.ap-northeast-2.amazonaws.com/urclass-images/Hy72L5ZfkO8oT5ShU6zuK-1650171466371.png)
