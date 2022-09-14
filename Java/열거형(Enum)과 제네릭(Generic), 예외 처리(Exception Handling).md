@@ -8,6 +8,14 @@
     + [제한된 제네릭 클래스](#제한된-제네릭-클래스)
     + [제네릭 메서드](#제네릭-메서드)
     + [와일드 카드](#와일드-카드)
+* [예외 처리(Exception Handling)](#예외-처리exception-handling)
+    + [컴파일 에러(Compile Time Error)](#컴파일-에러compile-time-error)
+    + [런타임 에러(Runtime Error)](#런타임-에러run-time-error)
+    + [에러와 예외](#에러와-예외)
+    + [예외 클래스의 상속 계층도](#예외-클래스의-상속-계층도)
+        + [일반 예외 클래스](#일반-예외-클래스exception)
+        + [실행 예외 클래스](#실행-예외-클래스runtime-exception)
+    + [try-catch문](#try-catch문)
 
 # 열거형(Enum)
 
@@ -293,3 +301,149 @@ class Chicken {
 - `<? extends T>` : `T`와 `T`를 상속 받는 하위 클래스 타입만 타입 파라미터로 받을 수 있도록 지정
 - `<? super T>` : `T`와 `T`의 상위 클래스만 타입 파라미터로 받도록 지정
 - `<?>` : 모든 클래스 타입을 타입 파라미터로 받을 수 있다. `<? extends Object>` 와 같다.
+
+# 예외 처리(Exception Handling)
+
+> 프로그램의 예외를 예상하고 미리 예측해 비정상적인 종료를 방지하고, 정상적인 실행 상태를 유지할 수 있도록 처리하는 코드 작성 과정
+> 
+- 에러가 발생하는 원인은 크게 내부적인 요인과 외부적인 요인을 구분할 수 있다.
+    - 외부 요인 : 하드웨어의 문제, 네트워크의 연결 끊김, 사용자 조작 오류 등
+    - 내부 요인 : 개발자의 코드 에러
+- 예외 처리는 내부 요인인 개발자의 코드 에러를 미리 방지하는 것이다.
+- 에러는 크게 컴파일 에러와 런타임 에러로 구분할 수 있다.
+
+## 컴파일 에러(Compile Time Error)
+
+> 컴파일 할 때 발생하는 에러
+> 
+- 주로 세모콜론 생략, 오탈자, 잘못된 자료형, 잘못된 포맷 등 문법적인 문제를 가리킨다. 신택스 에러(Syntax Errors)라고 부르기도 한다.
+- 컴파일 에러는 자바 컴파일러가 오류를 감지하여 알려주기 때문에 상대적으로 쉽게 발견하고 수정할 수 있다.
+
+```java
+public class ErrorTest {
+    public static void main(String[] args) {
+        int i;
+
+        for (i= 1; i<= 5; i++ { // ')' 괄호 빼먹음
+            System.out.println(i);
+        }
+    }
+}
+
+// 결과
+java: ')' expected
+```
+
+## 런타임 에러(Run Time Error)
+
+> 코드를 실행하는 과정, 즉 런타임 시에 발생하는 에러
+> 
+- 개발자가 컴퓨터가 수행할 수 없는 특정한 작업을 요청할 때 발생
+- 런타임 에러는 프로그램이 실행될 때 자바 가상 머신(JVM; Java Virtual Marchine)에 의해 감지된다.
+- 컴파일 중에는 문제가 있는지 알 수가 없다.
+
+```java
+public class RuntimeErrorTest {
+
+    public static void main(String[] args) {
+        System.out.println(4 * 4);
+        System.out.println(4 / 0); // 예외 발생
+    }
+}
+
+//출력값
+16
+// 특정 숫자를 0으로 나눴을 때 발생하는 ArithmeticException 예외 발생
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at RuntimeErrorTest.main(RuntimeErrorTest.java:5)
+```
+
+## 에러와 예외
+
+- 자바에서는 프로그래 오류를 크게 에러(error)와 예외(Exception)으로 구분하고 있다.
+    - 에러 : 복구하기 어려운 수준의 심각한 오류(메모리 부족(OutOfMemoryError), 스택오버플로우(StackOverflowError) 등)
+    - 예외 : 잘못된 사용 또는 코딩으로 인한 상대적으로 미약한 수준의 오류. 코드 수정 등을 통해 수습이 가능한 오류를 지칭한다.
+
+## 예외 클래스의 상속 계층도
+
+- 자바에서는 예외가 발생하면 예외 클래스로부터 객체를 생성하여 해당 인스턴스를 통해 예외 처리를 한다.
+- 모든 예외의 최고 상위 클래스는 `Exception` 클래스이며, 다시 크게 일반 예외 클래스와 실행 예외 클래스로 나눌 수 있다.
+
+### 일반 예외 클래스(Exception)
+
+- 런타임 시 발생하는 `RuntimeException` 클래스와 그 하위 클래스를 제외한 모든 `Exception` 클래스와 그 하위 클래스를 가리킨다.
+- 컴파일러가 코드 실행 전에 예외 처리 코드 여부를 검사한다고해서 checked 예외라고 부르기도 한다.
+- 주로 잘못된 클래스명(ClassNotFoundException)이나 데이터 형식(DataFormatException) 등 사용자의 실수로 발생하는 경우가 많다.
+
+### 실행 예외 클래스(Runtime Exception)
+
+- `RuntimeException` 클래스와 그 하위 클래스를 가리킨다.
+- 컴파일러가 예외 처리 코드 여부를 검사하지 않는다는 의미에서 unchecked 예외라고 부르기도 한다.
+- 주로 개발자의 실수로 발생하는 경우가 많고, 자바 문법 요소와 관련이 있다.
+- 클래스 간 형변환 오류(ClassCastException), 벗어난 배열 범위 지정(ArrayIndexOfBoundException), 값이 null인 참조변수 사용(NullPointerException) 등이 있다.
+
+## try-catch문
+
+- 자바에서 예외 처리는 `try-catch` 문을 통해 구현할 수 있다.
+    - try 블럭 : 예외가 발생할 가능성이 있는 코드를 삽입
+    - catch 블럭 : 예외가 발생하는 경우에 실행되는 코드, 여러 종류의 예외를 처리할 수 있다.
+    - finally 블럭 : 선택적으로 삽입할 수 있지만, 만약 삽입하는 경우 예외 발생 여부와 상관없이 항상 실행된다.
+
+```java
+try {
+	// 예외가 발생할 가능성이 있는 코드를 삽입
+}
+catch (ExceptionType1 e1) {
+	// ExceptionType1 유형의 예외 발생 시 실행할 코드
+}
+catch (ExceptionType2 e2) {
+	// ExceptionType2 유형의 예외 발생 시 실행할 코드
+}
+finally {
+	// finally 블럭은 선택적으로 삽입
+	// 예외 발생 여부와 상관없이 실행
+}
+```
+
+- 예외와 일치하는 catch 블럭만 실행되고 예외처리 코드가 종료되거나 finally 블럭으로 넘어간다.
+
+```java
+public class RuntimeExceptionTest {
+
+    public static void main(String[] args) {
+
+        try {
+            System.out.println("[소문자 알파벳을 대문자로 출력하는 프로그램]");
+            printMyName(null); // (1) 예외 발생
+            printMyName("abc"); // 이 코드는 실행되지 않고 catch 문으로 이동
+        } 
+        catch (ArithmeticException e) {
+            System.out.println("ArithmeticException 발생!"); // (2) 첫 번째 catch문
+        } 
+        catch (NullPointerException e) { // (3) 두 번째 catch문
+            System.out.println("NullPointerException 발생!"); 
+            System.out.println("e.getMessage: " + e.getMessage()); // (4) 예외 정보를 얻는 방법 - 1
+            System.out.println("e.toString: " + e.toString()); // (4) 예외 정보를 얻는 방법 - 2
+            e.printStackTrace(); // (4) 예외 정보를 얻는 방법 - 3
+        } 
+        finally {
+            System.out.println("[프로그램 종료]"); // (5) finally문
+        }
+    }
+
+    static void printMyName(String str) {
+        String upperCaseAlphabet = str.toUpperCase();
+        System.out.println(upperCaseAlphabet);
+		}
+}
+
+// 결과
+[소문자 알파벳을 대문자로 출력하는 프로그램]
+NullPointerException 발생!
+e.getMessage: null
+e.toString: java.lang.NullPointerException
+[프로그램 종료]
+java.lang.NullPointerException
+	at RuntimeExceptionTest.printMyName(RuntimeExceptionTest.java:20)
+	at RuntimeExceptionTest.main(RuntimeExceptionTest.java:7)
+```
