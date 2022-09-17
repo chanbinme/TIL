@@ -26,7 +26,7 @@
 * [컬렉션 프레임워크(Collection Framework)](https://github.com/dev-jambin/TIL/blob/main/Java/%EC%BB%AC%EB%A0%89%EC%85%98%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC(Collection%20Framework).md)
 * [람다식(Lamda Expression)](https://github.com/dev-jambin/TIL/blob/main/Java/%EB%9E%8C%EB%8B%A4%EC%8B%9D(Lamda%20Expression).md)
 * [스레드(Thread)](https://github.com/dev-jambin/TIL/blob/main/Java/%EC%8A%A4%EB%A0%88%EB%93%9C(Thread).md)
-* JVM(Java Virtual Marchine)
+* [JVM(Java Virtual Marchine)](https://github.com/dev-jambin/TIL/blob/main/Java/JVM(Java%20Virtual%20Marchine).md)
 * [String 클래스 메서드 도감](https://github.com/dev-jambin/TIL/blob/main/Java/String%20%ED%81%B4%EB%9E%98%EC%8A%A4%20%EB%A9%94%EC%84%9C%EB%93%9C%20%EB%8F%84%EA%B0%90.md)
 
 ## Linux
