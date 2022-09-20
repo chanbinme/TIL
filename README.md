@@ -35,7 +35,7 @@
 
 ## 알고리즘
 
-* [재귀]((https://github.com/dev-jambin/TIL/blob/main/알고리즘/재귀.md))
+* [재귀](https://github.com/dev-jambin/TIL/blob/main/알고리즘/재귀.md)
 
 ## Publishing
 
