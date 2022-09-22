@@ -33,9 +33,10 @@
 
 * [CLI 개념 및 기본 명령어](https://github.com/dev-jambin/TIL/blob/main/Linux/CLI.md)
 
-## 알고리즘
+## 자료구조
 
-* [재귀](https://github.com/dev-jambin/TIL/blob/main/알고리즘/재귀.md)
+* [Stack과 Queue
+* [재귀](https://github.com/dev-jambin/TIL/blob/main/자료구조/재귀.md)
 
 ## Publishing
 
