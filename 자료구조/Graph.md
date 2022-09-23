@@ -3,8 +3,6 @@
 > 그래프는 여러개의 점들이 서로 복잡하게 연결되어 있는 관계를 표현한 자료구조
 > 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee542c8f-d858-4172-8ddc-0acdc988d6a9/Untitled.png)
-
 ## Graph의 구조
 
 - 직접적인 관계가 있는 경우 두 점 사이를 이어주는 선이 있다.
