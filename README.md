@@ -37,7 +37,7 @@
 
 * [Stack과 Queue](https://github.com/dev-jambin/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Stack%EA%B3%BC%20Queue.md)
 * [Tree와 Binary Search Tree](https://github.com/dev-jambin/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Stack%EA%B3%BC%20Queue.md)
-* [Tree와 Graph
+* [Tree와 Graph](https://github.com/dev-jambin/TIL/blob/main/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Tree%EC%99%80%20Graph.md)
 * [Graph](https://github.com/dev-jambin/TIL/blob/main/자료구조/Graph.md)
 * [재귀](https://github.com/dev-jambin/TIL/blob/main/자료구조/재귀.md)
 
