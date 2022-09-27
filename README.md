@@ -43,10 +43,10 @@
 
 ## 알고리즘
 
-* [알고리즘(Algorithm)과 의사코드(pseudocode)
-* [시간복잡도(Time Complexity)
-* [완전 탐색 알고리즘(Brute-Force Algorithm)
-* [이진 탐색 알고리즘(Binary Search Algorithm)
+* [알고리즘(Algorithm)과 의사코드(pseudocode)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Algorithm)%EA%B3%BC%20%EC%9D%98%EC%82%AC%EC%BD%94%EB%93%9C(pseudocode).md)
+* [시간복잡도(Time Complexity)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84(Time%20Complexity).md)
+* [완전 탐색 알고리즘(Brute-Force Algorithm)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%99%84%EC%A0%84%20%ED%83%90%EC%83%89%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Brute-Force%20Algorithm).md)
+* [이진 탐색 알고리즘(Binary Search Algorithm)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Binary%20Search%20Algorithm).md)
 
 ## Publishing
 
