@@ -41,6 +41,13 @@
 * [Graph](https://github.com/dev-jambin/TIL/blob/main/자료구조/Graph.md)
 * [재귀](https://github.com/dev-jambin/TIL/blob/main/자료구조/재귀.md)
 
+## 알고리즘
+
+* [알고리즘(Algorithm)과 의사코드(pseudocode)
+* [시간복잡도(Time Complexity)
+* [완전 탐색 알고리즘(Brute-Force Algorithm)
+* [이진 탐색 알고리즘(Binary Search Algorithm)
+
 ## Publishing
 
 * [HTML](https://github.com/dev-jambin/TIL/blob/main/Publishing/HTML.md)
