@@ -47,7 +47,7 @@
 * [시간복잡도(Time Complexity)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84(Time%20Complexity).md)
 * [완전 탐색 알고리즘(Brute-Force Algorithm)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%99%84%EC%A0%84%20%ED%83%90%EC%83%89%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Brute-Force%20Algorithm).md)
 * [이진 탐색 알고리즘(Binary Search Algorithm)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Binary%20Search%20Algorithm).md)
-* [순열(permutation)과 조합(Combination)
+* [순열(permutation)과 조합(Combination)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%88%9C%EC%97%B4(permutation)%EA%B3%BC%20%EC%A1%B0%ED%95%A9(Combination).md)
 
 ## Publishing
 
