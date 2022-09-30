@@ -51,7 +51,7 @@
 
 ## 네트워크
 
-* [네이티브 애플리케이션과 앱 애플리케이션]([https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%26IP.md](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC%20%EC%95%B1%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98.md)
+* [네이티브 애플리케이션과 앱 애플리케이션](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC%20%EC%95%B1%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98.md)
 * [TCP/IP](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%26IP.md)
 * [TCP와 UDP](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%EC%99%80%20UDP.md)
 
