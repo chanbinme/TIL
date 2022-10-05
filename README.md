@@ -49,6 +49,12 @@
 * [이진 탐색 알고리즘(Binary Search Algorithm)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(Binary%20Search%20Algorithm).md)
 * [순열(permutation)과 조합(Combination)](https://github.com/dev-jambin/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/%EC%88%9C%EC%97%B4(permutation)%EA%B3%BC%20%EC%A1%B0%ED%95%A9(Combination).md)
 
+## 데이터베이스
+
+* [SQL
+* [SQL 기본 쿼리문
+* [ACID
+
 ## 네트워크
 
 * [네이티브 애플리케이션과 앱 애플리케이션](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC%20%EC%95%B1%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98.md)
