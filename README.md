@@ -53,7 +53,9 @@
 
 * [SQL](https://github.com/dev-jambin/TIL/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/SQL.md)
 * [SQL 기본 쿼리문](https://github.com/dev-jambin/TIL/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/SQL%20%EA%B8%B0%EB%B3%B8%20%EC%BF%BC%EB%A6%AC%EB%AC%B8.md)
+* [SQL 내장함수
 * [ACID](https://github.com/dev-jambin/TIL/blob/main/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4/ACID.md)
+* [데이터베이스 설계
 
 ## 네트워크
 
