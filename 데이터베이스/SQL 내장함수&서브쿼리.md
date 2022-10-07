@@ -7,7 +7,13 @@
     + [SUM()](#sum)
     + [AVG()](#avg)
     + [MIX(), MIN()](#mix-min)
+    + [CASE](#case)
 * [SELECT 실행 순서](#select-실행-순서)
+* [SQL 서브쿼리](#sql-서브쿼리)
+    + [SUBQUERY](#subquery)
+        + [IN, NOT IN](#in-not-in)
+        + [EXISTS, NO EXISTS](#exists-no-exists)
+        + [FROM](#from)
 
 # SQL More
 
@@ -100,6 +106,22 @@ SELECT CustomerId, MIN(Total)
 FROM invoices
 GROUP BY CustomerId;
 ```
+## CASE
+
+SQL에서도 if문과 같은 기능을 사용할 수 있다. CASE를 사용하면, 특정 조건에 따라 다른 결과를 받을 수 있다.
+
+```sql
+// CustomerId 필드값이 25이하인 경우에는 GROUP 1,
+// CustomerId 필득값이 26부터 50이하인 경우에는 GROUP 2,
+// CustomerId 필드값이 51 이상인 경우에는 GROUP 3으로 분류
+
+SELECT CASE
+						WHEN CustomerId <= 25 THEN 'GROUP 1'
+						WHEN CustomerID <= 50 THEN 'GROUP 2'
+						ELSE 'GROUP3'
+				END
+		FROM customers
+```
 
 ## SELECT 실행 순서
 
@@ -129,3 +151,69 @@ ORDER BY 2;
 4. `HAVING SUM(Total) >= 30` : Total 필드의 총합이 30이상인 결과들만 필터링한다.
 5. `SELECT CustomerID, AVG(Total)` : 조회한 결과에서 CustomerID 필드와 Total 필드의 평균값을 구한다.
 6. `ORDER BY 2` : `AVG(Total)` 필드를 기준으로 오름차순 정렬한 결과를 2개 리턴한다.
+
+# SQL 서브쿼리
+
+## SUBQUERY
+
+쿼리문 안에 다른 쿼리문을 포함할 수 있다.
+
+이 때 포함되는 쿼리문을 SUBQUERY(서브쿼리)라고 한다. 서브쿼리는 실행되는 쿼리에 중첩으로 위치해, 정보를 전달한다. 서브쿼리는 소과로호로 감싸야 한다.
+
+서브쿼리의 결과는 개별 값이나 레코드 리스트이다. 그리고 서브쿼리의 결과를 하나의 칼럼으로 사용할 수 있다.
+
+```sql
+SELECT CustomerId, CustomerId = (SELECT CustomerId FROM customers WHERE CustomerId = 2)
+FROM customers
+WHERE CustomerId < 6
+```
+
+아래 문법으로 서브쿼리를 어떻게 사용할 수 있는지 자세히 알아보자
+
+### IN, NOT IN
+
+IN은 특정한 값이 서브쿼리에 있는지 확인할 수 있다. 다음 쿼리는 customers 테이블에서 ‘CustomerId’의 값이 서브쿼리에서 돌려받는 값에 속한 결과들만 조회하고 있다.
+
+```sql
+// 서브쿼리에서는 'CustomerId'가 10 이하인 데이터들을 돌려주기 때문에
+// 최종 조회된 데이터의 'CusotmerId'도 10이하다.
+SELECT *
+FROM customers
+WHERE CustomerId IN (SELECT CustomerId FROM customers WHERE CustomerId < 20)
+```
+
+만약 `IN` 대신 `NOT IN` 을 사용한다면, 서브쿼리에서 조회된 10 미만을 제외한(10을 초과하는) 레코드를 조회한다.
+
+### EXISTS, NO EXISTS
+
+EXISTS는 돌려받은 서브쿼리에 존재하는 레코드를 확인한다. 
+
+만약 조회하려는 레코드가 존재한다면 참(TRUE)을, 그렇지 않은 경우에는 거짓(FALSE)를 리턴한다. 
+
+다음 쿼리문은 employee테이블에서부터 ‘Empolyeeld’ 필드를 조회한다. 이 때 서브쿼리로 customers 테이블의 ‘SupportRepId’ 필드값과 employees테이블의 ‘Employeeld’ 필드값을 비교해 일치하는 레코드들을 가져온다.
+
+```sql
+SELECT EmployeeId
+FROM employees e
+WHERE EXISTS (
+			SELECT 1
+			FROM customers c
+			WHERE c.SupportRepId = e.EmployeeId
+			)
+ORDER BY EmployeeId
+```
+
+### FROM
+
+FROM에도 서브쿼리를 사용할 수 있다.
+
+쿼리문과 서브쿼리를 사용해 조회된 결과를 하나의 테이블이나 조회할 대상으로 지정해 사용할 수 있다.
+
+```sql
+SELECT *
+FROM (
+			SELECT CusotmerId
+			FROM customers
+			WHERE CustomerId < 10
+			)
+```

@@ -3,7 +3,11 @@
 * [SQL](#sql)
     + [데이터베이스를 왜 사용할까?](#데이터베이스를-왜-사용할까)
 	+ [SQL](#sql-1)
-        
+* [SQL 종류](#sql-종류)
+    + [Data Definition Language(DDL)](#data-definition-languageddl)
+    + [Data Manipulation Language(DML)](#data-manipulation-languagedml)
+    + [Data Control Language(DCL)](#data-control-languagedcl)
+    + [Transaction Control Language(TCL)](#transaction-control-languagetcl)
 
 # SQL
 
@@ -41,3 +45,29 @@ JavaScript에서 변수를 만들어 저장한 경우, 프로그램이 종료될
 > 질의문이라는 뜻을 가진 query는 저장되어 있는 데이터를 필터하기 위한 질의문이라고 볼 수 있다.
 > 
 - 예를 들어 검색을 할 때 입력하는 검색어가 일종의 쿼리이다.
+
+# SQL 종류
+
+SQL에는 데이터를 조회하고 테이블을 만드는 등 다양한 문법이 있다. SQL의 문법들을 알아보자
+
+## Data Definition Language(DDL)
+
+DDL은 데이터를 정의할 때 사용하는 언어이다. 
+
+테이블을 만들 때 사용하는 `CREATE` 이나 테이블을 제거할 때 사용되는 `DROP` 등이 DDL에 해당한다. 데이터베이스의 테이블과 같은 오브젝트를 정의할 때 사용한다.
+
+## Data Manipulation Language(DML)
+
+DML은 데이터베이스에 데이터를 저장할 때 사용하는 언어이다. 
+
+`INSERT` 처럼 새로운 레코드를 추가할 때 사용되는 문법을 포함해 데이터를 삭제하는 `DELETE` 나, 변경하는 `UPDATE` 가 DML에 포함된다.
+
+## Data Control Language(DCL)
+
+DCL은 데이터베이스에 대한 접근 권한과 관련된 문법이다.
+
+어느 유저가 데이터베이스에 접근할 수 있는지 권한을 설정한다. 권한을 주는 `GRANT` 나, 권한을 가져가는 `REVOKE` 등이 DCL에 포함된다.
+
+## Transaction Control Language(TCL)
+
+TCL은 DML을 거친 데이터의 변경사항을 수정할 수 있다. `COMMIT` 처럼 DML이 작업한 내용을 데이터베이스에 커밋하거나, `ROLLBACK` 처럼 커밋했던 내용을 다시 롤백하는 문법이 있다.
