@@ -41,8 +41,8 @@
 * [AOP(Aspect Oriented Programming)](https://github.com/dev-jambin/TIL/blob/main/Spring/AOP(Aspect%20Oriented%20Programming).md)
 * [PSA(Portable Sevice Abstraction)](https://github.com/dev-jambin/TIL/blob/main/Spring/PSA(Portable%20Service%20Absraction).md)
 * [아키텍처(Architecture)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Architecture).md)
-* [스프링 컨테이너(Spring Container)
-* [빈(Bean)
+* [스프링 컨테이너(Spring Container)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88(Spring%20Container).md)
+* [빈(Bean)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EB%B9%88(Bean).md)
 
 
 ## Linux
