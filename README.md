@@ -43,8 +43,8 @@
 * [아키텍처(Architecture)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98(Architecture).md)
 * [스프링 컨테이너(Spring Container)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88(Spring%20Container).md)
 * [빈(Bean)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EB%B9%88(Bean).md)
-* [Component Scan](https://github.com/dev-jambin/TIL/blob/main/Spring/Component Scan.md)
-* [다양한 의존관계 주입 방법](https://github.com/dev-jambin/TIL/blob/main/Spring/다양한 의존관계 주입 방법.md)
+* [Component Scan](https://github.com/dev-jambin/TIL/blob/main/Spring/Component%20Scan.md)
+* [다양한 의존관계 주입 방법](https://github.com/dev-jambin/TIL/blob/main/Spring/%EB%8B%A4%EC%96%91%ED%95%9C%20%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84%20%EC%A3%BC%EC%9E%85%20%EB%B0%A9%EB%B2%95.md)
 
 ## Linux
 
