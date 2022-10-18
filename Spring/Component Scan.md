@@ -3,6 +3,9 @@
     + [basePackage](#basepackage)
     + [Component Scan 기본 대상](#component-scan-기본-대상)
         + [필터](#필터)
+    + [중복 등록과 충돌](#중복-등록과-충돌)
+        + [자동 빈 등록 vs 자동 빈 등록](#자동-빈-등록-vs-자동-빈-등록)
+        + [수동 빈 등록 vs 자동 빈 등록](#수동-빈-등록-vs-자동-빈-등록)    
         
 # Component Scan
 
@@ -50,3 +53,49 @@
     - ASPECT : AspectJ패턴을 사용한다.
     - REGEX : 정규 표현식을 사용한다.
     - CUSTOM : `TypeFilter` 라는 인터페이스를 구현해서 처리한다.
+
+## 중복 등록과 충돌
+
+컴포넌트 스캔에서 같은 빈 이름을 등록하면 어떻게 되는지 알아보자
+
+### 자동 빈 등록 vs 자동 빈 등록
+
+- 컴포넌트 스캔에 의해 자동으로 스프링 빈이 등록될 때, 이름이 같은 경우 스프링이 오류를 발생시킨다.
+    - `ConflictingBeanDefinitionException` 예외 발생
+
+### 수동 빈 등록 vs 자동 빈 등록
+
+```java
+@Component
+public class MemoryMemberRepository implements MemberRepository {}
+
+@Configuration
+@ComponentScan(
+          excludeFilters = @Filter(type = FilterType.ANNOTATION, classes =
+Configuration.class)
+)
+public class AutoAppConfig {
+			/* 빈 이름을 MemoryMemberRepository와 동일하게 변경 */
+      @Bean(name = "memoryMemberRepository")
+      public MemberRepository memberRepository() {
+          return new MemoryMemberRepository();
+      }
+}
+```
+
+- 자동 빈과 수동 빈의 이름이 겹칠 경우 수동 빈이 자동 빈을 오버라이딩 해버린다.
+- **수동 빈 등록시 남는 로그**
+    
+    ```java
+    Overriding bean definition for bean 'memoryMemberRepository' with a different
+      definition: replacing
+    ```
+    
+- 수동 빈이 자동 빈을 오버라이딩 해버린 경우 개발자가 의도한 상황이 아니라면 정말 잡기 어려운 버그가 만들어진다. 애매한 버그가 가장 잡기 어렵다고…
+- 이러한 문제가 잦자 스프링 부트에서는 수동 빈 등록과 자동 빈 등록이 충돌나면 오류가 발생하도록 기본 값을 바꾸었다. 이 **오류는 스프링 부트인 `CoreApplication` 을 실행해보면 볼 수 있다.**
+- **수동 빈 등록, 자동 빈 등록 오류 시 발생하는 스프링 부트 에러**
+    
+    ```java
+    Consider renaming one of the beans or enabling overriding by setting
+    spring.main.allow-bean-definition-overriding=true
+    ```
