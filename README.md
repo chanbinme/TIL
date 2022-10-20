@@ -36,8 +36,8 @@
 * [Framework와 Library의 차이](https://github.com/dev-jambin/TIL/blob/main/Spring/Framework%EC%99%80%20Library%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 * [Spring Framework이 뭐지](https://github.com/dev-jambin/TIL/blob/main/Spring/Spring%20Framework%EC%9D%B4%20%EB%AD%90%EC%A7%80.md)
 * [Spring Boot](https://github.com/dev-jambin/TIL/blob/main/Spring/Spring%20Boot.md#xml-%EA%B8%B0%EB%B0%98%EC%9D%98-%EB%B3%B5%EC%9E%A1%ED%95%9C-%EC%84%A4%EA%B3%84-%EB%B0%A9%EC%8B%9D-%EC%A7%80%EC%96%91)
-* [Spring MVC
-* [Spring MVC의 동작방식
+* [Spring MVC](https://github.com/dev-jambin/TIL/blob/main/Spring/Spring%20MVC.md)
+* [Spring MVC의 동작방식](https://github.com/dev-jambin/TIL/blob/main/Spring/Spring%20MVC%EC%9D%98%20%EB%8F%99%EC%9E%91%EB%B0%A9%EC%8B%9D.md)
 * [POJO(Plain Old Java Object)](https://github.com/dev-jambin/TIL/blob/main/Spring/POJO(Plain%20Old%20Java%20Object).md)
 * [IoC(Inversion of Control)](https://github.com/dev-jambin/TIL/blob/main/Spring/IoC(Inversion%20of%20Control).md)
 * [DI(Dependency Injection)](https://github.com/dev-jambin/TIL/blob/main/Spring/DI(Dependency%20Injection).md)
