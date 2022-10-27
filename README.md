@@ -52,6 +52,8 @@
 * [웹 애플리케이션과 싱글톤(Singleton)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%9B%B9%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC%20%EC%8B%B1%EA%B8%80%ED%86%A4(Singleton).md)
 * [싱글톤 컨테이너 주의점](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%8B%B1%EA%B8%80%ED%86%A4%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%20%EC%A3%BC%EC%9D%98%EC%A0%90.md)
 * [Rest Client](https://github.com/dev-jambin/TIL/blob/main/Spring/Rest%20Client.md)
+* [JDBC(Java Database Connectivity)
+* [데이터 액세스 기술 유형
 
 ## Linux
 
