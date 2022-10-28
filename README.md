@@ -54,6 +54,8 @@
 * [Rest Client](https://github.com/dev-jambin/TIL/blob/main/Spring/Rest%20Client.md)
 * [JDBC(Java Database Connectivity)](https://github.com/dev-jambin/TIL/blob/main/Spring/JDBC(Java%20Database%20Connectivity).md)
 * [데이터 액세스 기술 유형](https://github.com/dev-jambin/TIL/blob/main/Spring/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%95%A1%EC%84%B8%EC%8A%A4%20%EA%B8%B0%EC%88%A0%20%EC%9C%A0%ED%98%95.md)
+* [Spring Data JDBC 기반의 도메인 엔티티 및 테이블 설계
+* [애그리거트 객체 매핑 규칙
 
 ## Linux
 
