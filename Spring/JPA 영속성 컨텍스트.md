@@ -4,7 +4,7 @@
         + [Hibernate ORM](#hibernate-orm)
     + [데이터 액세스 계층에서의 JPA 위치](#데이터-액세스-계층에서의-jpa-위치)
     + [JPA에서 P(Persistence)의 의미](#jpa에서-ppersistence의-의미)
-        +[영속성 컨텍스트(Persistence Context)](#영속성-컨텍스트persistence-context)
+        + [영속성 컨텍스트(Persistence Context)](#영속성-컨텍스트persistence-context)
     + [JPA API로 영속성 컨텍스트 이해하기](#jpa-api로-영속성-컨텍스트-이해하기)
 
 # JPA(Java Persistence API)
