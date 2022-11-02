@@ -57,7 +57,7 @@
 * [Spring Data JDBC 기반의 도메인 엔티티 및 테이블 설계](https://github.com/dev-jambin/TIL/blob/main/Spring/Spring%20Data%20JDBC%20%EA%B8%B0%EB%B0%98%EC%9D%98%20%EB%8F%84%EB%A9%94%EC%9D%B8%20%EC%97%94%ED%8B%B0%ED%8B%B0%20%EB%B0%8F%20%ED%85%8C%EC%9D%B4%EB%B8%94%20%EC%84%A4%EA%B3%84.md)
 * [애그리거트 객체 매핑 규칙](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%95%A0%EA%B7%B8%EB%A6%AC%EA%B1%B0%ED%8A%B8%20%EB%A7%A4%ED%95%91%20%EA%B7%9C%EC%B9%99.md)
 * [JPA 영속성 컨텍스트](https://github.com/dev-jambin/TIL/blob/main/Spring/JPA%20%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
-* [JPA 연관 관계
+* [JPA 연관 관계](https://github.com/dev-jambin/TIL/blob/main/Spring/JPA%20%EC%97%B0%EA%B4%80%20%EA%B4%80%EA%B3%84.md)
 
 ## Linux
 
