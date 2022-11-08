@@ -59,8 +59,8 @@
 * [JPA 영속성 컨텍스트](https://github.com/dev-jambin/TIL/blob/main/Spring/JPA%20%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
 * [JPA 연관 관계](https://github.com/dev-jambin/TIL/blob/main/Spring/JPA%20%EC%97%B0%EA%B4%80%20%EA%B4%80%EA%B3%84.md)
 * [트랜잭션(Transaction)](https://github.com/dev-jambin/TIL/blob/main/Spring/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98(Transaction).md)
-* [단위 테스트(Unit Test)
-* [슬라이스 테스트(Slice Test
+* [단위 테스트(Unit Test)](https://github.com/dev-jambin/TIL/blob/main/Spring/%EB%8B%A8%EC%9C%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8(Unit%20Test).md)
+* [슬라이스 테스트(Slice Test](https://github.com/dev-jambin/TIL/blob/main/Spring/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EC%8A%A4%20%ED%85%8C%EC%8A%A4%ED%8A%B8(Slice%20Test).md)
 
 ## Linux
 
