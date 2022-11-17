@@ -70,6 +70,7 @@
 * [Session](https://github.com/dev-jambin/TIL/blob/main/Security/Session.md)
 * [CSRF(Cross Site Request Forgery)](https://github.com/dev-jambin/TIL/blob/main/Security/CSRF(Cross%20Site%20Request%20Forgery).md)
 * [SQL Injection](https://github.com/dev-jambin/TIL/blob/main/Security/SQL%20Injection.md)
+* [same-site와 same-origin 이해하기
 
 
 ## Linux
