@@ -68,8 +68,8 @@
 ## Security
 * [Cookie](https://github.com/dev-jambin/TIL/blob/main/Security/Cookie.md)
 * [Session](https://github.com/dev-jambin/TIL/blob/main/Security/Session.md)
-* [CSRF(Cross Site Request Forgery)
-* [SQL Injection
+* [CSRF(Cross Site Request Forgery)](https://github.com/dev-jambin/TIL/blob/main/Security/CSRF(Cross%20Site%20Request%20Forgery).md)
+* [SQL Injection](https://github.com/dev-jambin/TIL/blob/main/Security/SQL%20Injection.md)
 
 
 ## Linux
