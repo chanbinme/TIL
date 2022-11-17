@@ -82,3 +82,6 @@
     - `same-site`
     - `same-origin`
     - `none`
+
+## 참조
+[https://web.dev/same-site-same-origin/#same-site-cross-site](https://web.dev/same-site-same-origin/#same-site-cross-site)
