@@ -72,7 +72,7 @@
 * [SQL Injection](https://github.com/dev-jambin/TIL/blob/main/Security/SQL%20Injection.md)
 * [same-site와 same-origin 이해하기](https://github.com/dev-jambin/TIL/blob/main/Security/same-site%EC%99%80%20same-origin.md)
 * [Spring Security](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security.md)
-* [Spring Security 기본 구조
+* [Spring Security 기본 구조](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security%20%EA%B8%B0%EB%B3%B8%20%EA%B5%AC%EC%A1%B0.md)
 
 ## Linux
 
