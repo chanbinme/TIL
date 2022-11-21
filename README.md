@@ -73,10 +73,10 @@
 * [same-site와 same-origin 이해하기](https://github.com/dev-jambin/TIL/blob/main/Security/same-site%EC%99%80%20same-origin.md)
 * [Spring Security](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security.md)
 * [Spring Security 기본 구조](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security%20%EA%B8%B0%EB%B3%B8%20%EA%B5%AC%EC%A1%B0.md)
-* [Spring Security의 인증 처리 흐름
-* [Spring Security의 인증 컴포넌트
-* [Spring Security의 권한 부여 처리 흐름
-* [Spring Security의 권한 부여 컴포넌트
+* [Spring Security의 인증 처리 흐름](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security%EC%9D%98%20%EC%9D%B8%EC%A6%9D%20%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84.md)
+* [Spring Security의 인증 컴포넌트](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security%EC%9D%98%20%EC%9D%B8%EC%A6%9D%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8.md)
+* [Spring Security의 권한 부여 처리 흐름](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security%EC%9D%98%20%EA%B6%8C%ED%95%9C%20%EB%B6%80%EC%97%AC%20%EC%B2%98%EB%A6%AC%20%ED%9D%90%EB%A6%84.md)
+* [Spring Security의 권한 부여 컴포넌트](https://github.com/dev-jambin/TIL/blob/main/Security/Spring%20Security%EC%9D%98%20%EA%B6%8C%ED%95%9C%20%EB%B6%80%EC%97%AC%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8.md)
 
 ## Linux
 
