@@ -133,6 +133,7 @@
 * [RDS와 S3](https://github.com/dev-jambin/TIL/blob/main/AWS/RDS%EC%99%80%20S3.md)
 * [Security Group](https://github.com/dev-jambin/TIL/blob/main/AWS/Security%20Group.md)
 * [3Tier Architecture 배포 전략](https://github.com/dev-jambin/TIL/blob/main/AWS/3Tier%20Architecture%20%EB%B0%B0%ED%8F%AC%20%EC%A0%84%EB%9E%B5.md)
+* [Automated Deployment
 
 ## Publishing
 
