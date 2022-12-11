@@ -138,6 +138,7 @@
 * [로드밸런서](https://github.com/dev-jambin/TIL/blob/main/Cloud/%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%84%9C.md)
 * [프록시 서버](https://github.com/dev-jambin/TIL/blob/main/Cloud/%ED%94%84%EB%A1%9D%EC%8B%9C%20%EC%84%9C%EB%B2%84.md)
 * [AWS 오토 스케일링(Auto Scailing)](https://github.com/dev-jambin/TIL/blob/main/Cloud/AWS%20%EC%98%A4%ED%86%A0%20%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%A7%81(Auto%20Scailing).md)
+* [체크 예외(Checked Exception)와 언체크 예외(Unchecked Exception)
 
 ## Publishing
 
