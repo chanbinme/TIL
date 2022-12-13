@@ -126,9 +126,11 @@
 * [TCP/IP](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%26IP.md)
 * [TCP와 UDP](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/TCP%EC%99%80%20UDP.md)
 * [REST API](https://github.com/dev-jambin/TIL/blob/main/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/REST%20API.md)
+* [CORS
 
 ## Cloud
 
+* [서버와 클라이언트
 * [Deploy](https://github.com/dev-jambin/TIL/blob/main/Cloud/Deploy.md)
 * [EC2](https://github.com/dev-jambin/TIL/blob/main/Cloud/EC2.md)
 * [RDS와 S3](https://github.com/dev-jambin/TIL/blob/main/Cloud/RDS%EC%99%80%20S3.md)
