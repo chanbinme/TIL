@@ -147,6 +147,10 @@
 * [HTML](https://github.com/dev-jambin/TIL/blob/main/Publishing/HTML.md)
 * [CSS](https://github.com/dev-jambin/TIL/blob/main/Publishing/CSS.md)
 
+## Computer Science
+* [프로그래밍 패러다임](https://github.com/dev-jambin/TIL/blob/main/Book/Github%20Actions.md
+
+
 ## ETC
 
 * [etc](https://github.com/dev-jambin/TIL/blob/main/ETC)
