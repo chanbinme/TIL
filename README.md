@@ -149,7 +149,8 @@
 
 ## Computer Science
 * [프로그래밍 패러다임](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84.md)
-
+* [네트워크 기초]()
+* [TCP/IP 4계층 모델]()
 
 ## ETC
 
