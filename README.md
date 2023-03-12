@@ -153,7 +153,7 @@
 * [TCP/IP 4계층 모델](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/TCP%26IP%204%EA%B3%84%EC%B8%B5%20%EB%AA%A8%EB%8D%B8.md)
 
 ## Clean Code
-* [의미 있는 이름]()
+* [의미 있는 이름](https://github.com/chanbinme/TIL/blob/5b707d29a0b5c9dfa54f706acf6048331d60aa2c/Book/Clean%20Code/%EC%9D%98%EB%AF%B8%20%EC%9E%88%EB%8A%94%20%EC%9D%B4%EB%A6%84.md)
 
 ## ETC
 
