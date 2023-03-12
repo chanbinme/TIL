@@ -152,6 +152,9 @@
 * [네트워크 기초](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EA%B8%B0%EC%B4%88.md)
 * [TCP/IP 4계층 모델](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/TCP%26IP%204%EA%B3%84%EC%B8%B5%20%EB%AA%A8%EB%8D%B8.md)
 
+## Clean Code
+* [의미 있는 이름]()
+
 ## ETC
 
 * [etc](https://github.com/dev-jambin/TIL/blob/main/ETC)
