@@ -156,7 +156,7 @@
 
 ## Clean Code
 * [의미 있는 이름](https://github.com/chanbinme/TIL/blob/5b707d29a0b5c9dfa54f706acf6048331d60aa2c/Book/Clean%20Code/%EC%9D%98%EB%AF%B8%20%EC%9E%88%EB%8A%94%20%EC%9D%B4%EB%A6%84.md)
-* [객체와 자료 구조] (https://github.com/chanbinme/TIL/blob/main/Book/Clean%20Code/%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
+* [객체와 자료 구조](https://github.com/chanbinme/TIL/blob/main/Book/Clean%20Code/%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
 
 ## ETC
 * [etc](https://github.com/dev-jambin/TIL/blob/main/ETC)
