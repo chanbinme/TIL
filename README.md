@@ -151,11 +151,13 @@
 * [프로그래밍 패러다임](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%ED%8C%A8%EB%9F%AC%EB%8B%A4%EC%9E%84.md)
 * [네트워크 기초](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EA%B8%B0%EC%B4%88.md)
 * [TCP/IP 4계층 모델](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/TCP%26IP%204%EA%B3%84%EC%B8%B5%20%EB%AA%A8%EB%8D%B8.md)
+* [네트워크 기기](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EA%B8%B0%EA%B8%B0.md)
+* [IP 주소](https://github.com/chanbinme/TIL/blob/main/Book/%EB%A9%B4%EC%A0%91%EC%9D%84%20%EC%9C%84%ED%95%9C%20CS%20%EC%A0%84%EA%B3%B5%EC%A7%80%EC%8B%9D%20%EB%85%B8%ED%8A%B8/IP%20%EC%A3%BC%EC%86%8C.md)
 
 ## Clean Code
 * [의미 있는 이름](https://github.com/chanbinme/TIL/blob/5b707d29a0b5c9dfa54f706acf6048331d60aa2c/Book/Clean%20Code/%EC%9D%98%EB%AF%B8%20%EC%9E%88%EB%8A%94%20%EC%9D%B4%EB%A6%84.md)
+* [객체와 자료 구조](https://github.com/chanbinme/TIL/blob/main/Book/Clean%20Code/%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0.md)
 
 ## ETC
-
 * [etc](https://github.com/dev-jambin/TIL/blob/main/ETC)
 * [나의 에러 일지](https://github.com/dev-jambin/TIL/blob/main/ETC/%EB%82%98%EC%9D%98%20%EC%97%90%EB%9F%AC%20%EC%9D%BC%EC%A7%80/ArrayIndexOutOfBoundsException.md)
